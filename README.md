@@ -1,4 +1,4 @@
-# RevatureProject1Actaul
+# RevatureProject1Actual
 1. Users are able to create an account and log in to the app 
 2. User payment through app (add funds to app which are used for the machines) 
 3. Machines of different sizes have different costs 
