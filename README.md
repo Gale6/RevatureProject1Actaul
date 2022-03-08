@@ -6,4 +6,4 @@
 5. If Reservation is missed, the machine is open for new user
 6. Machines require app to unlock  
 7. Built in timer for the machines the user is using 
-8. Alarm the user when their machine is close to done"
+8. Alarm the user when their machine is close to done
