@@ -65,7 +65,7 @@ fun MainContent() {
             Text(text = "current",fontFamily = FontFamily.Serif)
             Spacer(modifier = Modifier.height(64.dp))
             Image(painter = painterResource(R.drawable.person1), contentDescription = "personalInfoIcon", modifier = Modifier
-                .clickable { /* context.startActivity(Intent(context,createNewReservation::Class.java)) */ }
+                .clickable { context.startActivity(Intent(context,UserProfileActivity::class.java)) }
                 .size(150.dp)
             )
             Text(text = "personal Info",fontFamily = FontFamily.Serif)
