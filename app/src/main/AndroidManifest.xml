@@ -11,9 +11,12 @@
         android:theme="@style/Theme.RevatureProject1Actual">
         <activity
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".MainActivity"
             android:exported="true">
 =======
+=======
+>>>>>>> parent of 1d43ca2 (Added MissedReservationScreen.kt)
             android:name="revatureproject1actual.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
