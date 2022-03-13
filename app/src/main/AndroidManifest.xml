@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.revatureproject1actual">
+    package="com.revature.revatureproject1actual">
 
     <application
         android:allowBackup="true"
@@ -15,7 +15,7 @@
             android:label="@string/title_activity_missed_reservation"
             android:theme="@style/Theme.RevatureProject1Actual" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.revature.revatureproject1actual.revatureproject1actual.revature.revatureproject1actual.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

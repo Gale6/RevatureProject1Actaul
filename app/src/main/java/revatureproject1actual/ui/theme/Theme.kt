@@ -1,4 +1,4 @@
-package com.example.revatureproject1actual.ui.theme
+package revatureproject1actual.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -3,7 +3,6 @@ package revatureproject1actual
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -16,21 +15,19 @@ import androidx.compose.ui.Alignment.Companion.TopCenter
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.revatureproject1actual.R
-import com.example.revatureproject1actual.ui.theme.RevatureProject1ActualTheme
+import revatureproject1actual.ui.theme.RevatureProject1ActualTheme
 
-class MissedReservationScreen : ComponentActivity() {
+class MissedReservation : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             RevatureProject1ActualTheme {
-                MissedReservation()
+                MissedReservationScreen()
             }
         }
     }
@@ -38,11 +35,11 @@ class MissedReservationScreen : ComponentActivity() {
 
 @Preview
 @Composable
-fun MissedReservation() {
+fun MissedReservationScreen() {
 
     Column {
 
-        TopAppBar(title = { Text("Laundr-o-matic") })
+        TopAppBar(title = { Text("Missed Reservation") })
 
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = TopCenter) {
             Box(modifier = Modifier
@@ -50,13 +47,11 @@ fun MissedReservation() {
                 .background(Color.White),
                 contentAlignment = TopCenter
             ) {
-                Image(
-                    painter = painterResource(
-                        id = R.drawable.white_frowning_face_u2639_icon_256x256
-                    ),
-                    contentDescription = "frowning face",
-                    modifier = Modifier.size(200.dp)
-                )
+//              Image(
+//                    painter = painterResource(id = R.drawable.frowning_face),
+//                    contentDescription = "frowning face",
+//                    modifier = Modifier.size(200.dp)
+//                )
             }
             Column(
                 horizontalAlignment = CenterHorizontally,
@@ -76,24 +71,24 @@ fun MissedReservation() {
 
                 Column(
                     horizontalAlignment = CenterHorizontally,
-                    verticalArrangement = Arrangement.Center,
+                    verticalArrangement = Arrangement.Top,
                     modifier = Modifier
                         .fillMaxWidth()
                         .fillMaxHeight(0.60f)
                         .clip(RoundedCornerShape(30.dp))
                         .padding(10.dp)
                 ) {
-                    Button(onClick = { /*TODO*/ }, modifier = Modifier
-                        .fillMaxWidth()
-                        .height(50.dp)
+                    Button(
+                        onClick = { /*TODO*/ }, modifier = Modifier
+                            .fillMaxWidth(0.8f)
+                            .height(50.dp)
                     ) {
                         Text("Reschedule")
                     }
+                    Spacer(modifier = Modifier.padding(10.dp))
 
-                    Spacer(modifier = Modifier.height(15.dp))
-
-                    Button(onClick = { /* TODO*/ }, modifier = Modifier
-                        .fillMaxWidth()
+                    Button(onClick = { /* TODO goes back to main menu*/ }, modifier = Modifier
+                        .fillMaxWidth(0.8f)
                         .height(50.dp)
                     ) {
                         Text("Main Menu")
