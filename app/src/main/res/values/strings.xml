@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RevatureProject1Actual</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_missed_reservation_screen">MissedReservationScreen</string>
 </resources>
