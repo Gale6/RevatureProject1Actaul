@@ -10,8 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RevatureProject1Actual">
         <activity
+<<<<<<< HEAD
             android:name=".MainActivity"
             android:exported="true">
+=======
+            android:name="revatureproject1actual.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.RevatureProject1Actual">
+>>>>>>> parent of 1d43ca2 (Added MissedReservationScreen.kt)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

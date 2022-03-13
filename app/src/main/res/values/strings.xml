@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RevatureProject1Actual</string>
+<<<<<<< HEAD
+=======
+    <string name="title_activity_main">MainActivity</string>
+>>>>>>> parent of 1d43ca2 (Added MissedReservationScreen.kt)
 </resources>
