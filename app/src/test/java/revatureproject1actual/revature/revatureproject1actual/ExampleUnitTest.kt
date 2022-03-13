@@ -1,4 +1,4 @@
-package com.revature.revatureproject1actual
+package revatureproject1actual.revature.revatureproject1actual
 
 import org.junit.Test
 

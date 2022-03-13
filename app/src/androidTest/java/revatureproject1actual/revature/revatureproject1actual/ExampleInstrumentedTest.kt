@@ -1,4 +1,4 @@
-package com.revature.revatureproject1actual
+package revatureproject1actual.revature.revatureproject1actual
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
