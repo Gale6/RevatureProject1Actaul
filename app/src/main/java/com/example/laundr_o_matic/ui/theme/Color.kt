@@ -1,4 +1,4 @@
-package com.example.apartment_laundry_app.ui.theme
+package com.example.laundr_o_matic.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

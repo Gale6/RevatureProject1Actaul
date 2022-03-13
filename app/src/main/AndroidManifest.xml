@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.apartment_laundry_app">
+    package="com.example.laundr_o_matic">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apartmentlaundryapp">
         <activity
-            android:name=".TestingFeatures"
+            android:name="com.example.com.revature.laundr_o_matic.TestingFeatures"
             android:exported="false"
             android:label="@string/title_activity_testing_features"
             android:theme="@style/Theme.Apartmentlaundryapp" />
@@ -20,17 +20,17 @@
             android:label="@string/title_activity_log_in_portal"
             android:theme="@style/Theme.Apartmentlaundryapp" />
         <activity
-            android:name=".RegistrationSuccessful"
+            android:name="com.example.com.revature.laundr_o_matic.RegistrationSuccessful"
             android:exported="false"
             android:label="@string/title_activity_registration_successful"
             android:theme="@style/Theme.Apartmentlaundryapp" />
         <activity
-            android:name=".Registration"
+            android:name="com.example.com.revature.laundr_o_matic.Registration"
             android:exported="false"
             android:label="@string/title_activity_registration"
             android:theme="@style/Theme.Apartmentlaundryapp" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.com.revature.laundr_o_matic.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

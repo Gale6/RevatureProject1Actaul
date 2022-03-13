@@ -1,4 +1,4 @@
-package com.example.apartment_laundry_app
+package com.example.laundr_o_matic
 
 import org.junit.Test
 
