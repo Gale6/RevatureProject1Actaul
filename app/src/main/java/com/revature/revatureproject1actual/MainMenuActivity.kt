@@ -16,11 +16,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.revature.revatureproject1actual.ui.theme.RevatureProject1ActualTheme
 
-class MainMenu : ComponentActivity() {
+class MainMenuActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -46,13 +47,13 @@ fun MainContent() {
                 .clickable { /* context.startActivity(Intent(context,createNewReservation::Class.java)) */ }
                 .size(150.dp)
             )
-            Text(text = "new reservation",fontFamily = FontFamily.Serif)
+            Text(text = "new reservation",fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(64.dp))
             Image(painter = painterResource(R.drawable.history1), contentDescription = "history", modifier = Modifier
                 .clickable { /* context.startActivity(Intent(context,createNewReservation::Class.java)) */ }
                 .size(150.dp)
             )
-            Text(text = "Histories",fontFamily = FontFamily.Serif)
+            Text(text = "Histories",fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold)
         }
 
         Spacer(modifier = Modifier.width(16.dp))
@@ -62,13 +63,13 @@ fun MainContent() {
                 .clickable { /* context.startActivity(Intent(context,createNewReservation::Class.java)) */ }
                 .size(150.dp)
             )
-            Text(text = "current",fontFamily = FontFamily.Serif)
+            Text(text = "current",fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(64.dp))
             Image(painter = painterResource(R.drawable.person1), contentDescription = "personalInfoIcon", modifier = Modifier
                 .clickable { context.startActivity(Intent(context,UserProfileActivity::class.java)) }
                 .size(150.dp)
             )
-            Text(text = "personal Info",fontFamily = FontFamily.Serif)
+            Text(text = "personal Info",fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold)
 
         }
     }

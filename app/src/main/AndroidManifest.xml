@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RevatureProject1Actual">
         <activity
+            android:name=".WalletActivity"
+            android:exported="false"
+            android:label="@string/title_activity_wallet"
+            android:theme="@style/Theme.RevatureProject1Actual" />
+        <activity
             android:name=".UserProfileActivity"
             android:exported="false"
             android:label="@string/title_activity_user_profile"
             android:theme="@style/Theme.RevatureProject1Actual" />
         <activity
-            android:name=".MainMenu"
+            android:name=".MainMenuActivity"
             android:exported="true"
             android:label="@string/title_activity_main_menu"
             android:theme="@style/Theme.RevatureProject1Actual">

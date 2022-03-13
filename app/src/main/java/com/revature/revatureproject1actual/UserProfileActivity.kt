@@ -104,11 +104,11 @@ fun userProfileComponent() {
 
         Spacer(modifier = Modifier.height(32.dp))
         Row{
-            Button(onClick = { /*TODO*/ }, modifier = Modifier.width(100.dp)) {
+            Button(onClick = { context.startActivity(Intent(context, WalletActivity()::class.java)) }, modifier = Modifier.width(100.dp)) {
                 Text(text = "Wallet")
             }
             Spacer(modifier = Modifier.width(32.dp))
-            Button(onClick = { context.startActivity(Intent(context, MainMenu::class.java)) }, modifier = Modifier.width(100.dp)) {
+            Button(onClick = { context.startActivity(Intent(context, MainMenuActivity::class.java)) }, modifier = Modifier.width(100.dp)) {
                 Text(text = "Main")
             }
         }
@@ -116,7 +116,9 @@ fun userProfileComponent() {
 
         Spacer(modifier = Modifier.height(50.dp))
 
-        Button(onClick = { /*todo*/ }, modifier = Modifier.width(100.dp).height(50.dp)) {
+        Button(onClick = { /*todo*/ }, modifier = Modifier
+            .width(100.dp)
+            .height(30.dp)) {
             Text(text = "Sign out")
         }
 
